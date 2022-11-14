@@ -1,0 +1,132 @@
+*{
+background-color: #eae0d5;
+font-family: 'Lato';
+font-size: 20px;
+}
+
+.about, .title , .cards, .BLOG{
+  margin: 0px 200px;
+  margin-top: 70px;
+}
+
+/* Navbar */
+.nav {
+  text-align: right;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 300;
+}
+
+.a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 10px 25px;
+  padding-top: 10px;
+  font-weight: 300px;
+}
+
+a:hover {
+  font-weight: 700; 
+}
+
+a:focus{
+  font-weight: 700;  
+}
+
+/* Home Page */
+
+#greet {
+  text-align: center; 
+  margin: 150px;   
+}
+
+.op {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 60px;
+  font-style: bold;
+  color: #6f4903;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#job{
+  margin-bottom: 30px;
+}
+
+#jobdesk{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#button {
+  color: gray;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 100px;
+  border-style: none;
+  background: #FFFFFF;
+  text-decoration: none;
+  box-shadow: 1px 5px 15px rgba(82, 39, 0, 0.15);
+}
+
+#button:hover {
+ background-color: #A5700A;
+ color: white;
+}
+
+/* About Page */
+.about {
+  line-height: 1.5;
+}
+
+
+/* Portfolio Page */
+.cards {
+  display: flex;
+  margin: 100px;
+  margin-top: 0px;
+}
+
+#port{
+  text-align: center;
+}
+
+.col {
+  padding: 20px;
+}
+
+.card-text{
+  margin-top: 10px;
+  color: gray;
+  font-style: italic;
+}
+
+.card-text:hover, .Btitle:hover {
+  color: white; 
+}
+
+.card-img-top{
+  filter: grayscale();
+}
+
+.card-img-top:hover{
+  filter: none;
+}
+
+/* Blog Page */
+.month {
+  font-size: 16px;
+  font-style: italic;
+  color: gray;
+}
+
+.Btitle, .cards, .card-title {
+  margin-bottom: 0px;
+}
